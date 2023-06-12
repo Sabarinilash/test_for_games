@@ -1,0 +1,16 @@
+{
+  "name": "exercise_tek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "playwright test --config=exercise-one.spec.ts --project=Chromium",
+    "test:api": "playwright test --config=exercise-two.spec.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.0"
+  }
+}

@@ -1,0 +1,19 @@
+Test Plan - Card Game
+
+1: Test: Confirm website availability
+        Navigate to https://deckofcardsapi.com/
+        Verify that the website is accessible and loads successfully
+2: Test: Get a new deck of cards
+        Request a new deck of cards from the API
+        Validate that a new deck is received with the expected number of cards
+3: Test: Shuffle the deck
+        Shuffle the deck of cards using the API
+        Verify that the order of the cards is randomized
+4: Test: Deal three cards to each player
+        Deal three cards to player 1 and player 2
+        Confirm that each player receives three unique cards
+5: Test: Check for blackjack
+        Check if either player has blackjack (from their initial three cards)
+        If blackjack is detected, record which player has it
+6: Test: Validate blackjack detection
+        Verify that the detection of blackjack is accurate based on the card values

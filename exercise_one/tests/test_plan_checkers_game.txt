@@ -1,0 +1,16 @@
+Test Plan - Checkers Game
+
+1: Test: Confirm website availability
+    Navigate to https://www.gamesforthebrain.com/game/checkers/
+    Verify that the website is accessible and loads successfully
+2: Test: Perform five legal moves as orange player
+    Confirm that the game has started and the orange player is active
+    Make five legal moves, including taking a blue piece
+    Use "Make a move" as confirmation for each step
+    Validate that each move is successfully executed
+3: Test: Restart the game
+    Restart the game after completing five moves
+    Verify that the game is reset and ready for a new game
+4: Test: Validate successful game restart
+    Confirm that the game has restarted
+    Verify that the game board, players, and turn order are reset to the initial state
